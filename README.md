@@ -33,7 +33,7 @@ The data is organized into the following files:
   - The original Japanese guidelines used by the four annotators for rating the 10 subjective VIs (excluding `K) Slow-Fast`) on a 1-7 scale.
 - `annotation_guidelines_en.md`
   - The English translation of the annotation guidelines.
-- `LibriTTS-R_VI_labeled_100.tsv`
+- `LibriTTS-VI_labeled_100.tsv`
   - The manual annotations for 100 utterances. Each line contains a `wav_path` and the ratings from the four annotators for each of the 10 subjective scales, separated by hyphens.
 
     ```tsv
@@ -44,8 +44,8 @@ The data is organized into the following files:
     ...
     ```
 
-- `LibriTTS-R_VI_estimated.json`
-  - VI values for the rest of the LibriTTS-R corpus, as estimated by the trained VIE. The values are provided as a list of 11 floating-point numbers corresponding to the `vi_list` below.
+- `LibriTTS-VI_estimated.json`
+  - VI values for the entire LibriTTS-R corpus, estimated by the trained VIE. The values are provided as a list of 11 floating-point numbers corresponding to the `vi_list` below.
 
     ```
     vi_list = ["low-high", "masc-fem", "clear-hoarse", "calm-restless", "powerful-weak", "youthful-aged", "thick-thin", "firm-relaxed", "dark-bright", "cold-warm", "slow-fast"]
