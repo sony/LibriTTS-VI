@@ -2,7 +2,7 @@
 
 We introduce **LibriTTS-VI** (**V**oice **I**mpression), the first public dataset for voice impression control (VIC), built by annotating the widely-used [LibriTTS-R corpus](https://www.openslr.org/141/) [1].
 
-### [Audio demo](https://junki-ohmura.github.io/libritts-vi/)
+### [Audio demo](https://junki-ohmura.github.io/LibriTTS-VI/)
 
 The goal of VIC is to enable direct, fine-grained manipulation of a speaker's voice characteristics through a set of perceptually-grounded vectors. This work is based on the paradigm pioneered by VIC [2], which manipulates 11 perceptual vectors numerically.
 
