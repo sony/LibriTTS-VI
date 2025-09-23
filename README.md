@@ -74,11 +74,14 @@ The data is organized into the following files:
 If you use this dataset in your research, please cite our paper.
 
 ```bibtex
-@misc{librittsvi,
-      title={LibriTTS-VI: A Public Corpus and Novel Methods for Efficient Voice Impression Control}, 
-      author={Junki Ohmura, Yuki Ito, Emiru Tsunoo, Toshiyuki Sekiya, Toshiyuki Kumakura},
-      journal={arXiv preprint arXiv:xxxxxxx},
+@misc{ohmura2025librittsvipubliccorpusnovel,
+      title={{LibriTTS-VI}: A Public Corpus and Novel Methods for Efficient Voice Impression Control}, 
+      author={Junki Ohmura and Yuki Ito and Emiru Tsunoo and Toshiyuki Sekiya and Toshiyuki Kumakura},
       year={2025},
+      eprint={2509.15626},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2509.15626}, 
 }
 ```
 
