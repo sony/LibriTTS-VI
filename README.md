@@ -1,5 +1,7 @@
 # LibriTTS-VI: A Public Corpus and Novel Methods for Efficient Voice Impression Control
 
+**Accepted at Interspeech 2026**
+
 We introduce **LibriTTS-VI** (**V**oice **I**mpression), the first public dataset for voice impression control (VIC), built by annotating the widely-used [LibriTTS-R corpus](https://www.openslr.org/141/) [1].
 
 ### [Audio demo](https://junki-ohmura.github.io/LibriTTS-VI/)
@@ -20,7 +22,7 @@ The 11 perceptual scales are:
 - K) Slow–Fast (Speed)
 
 The release consists of two main components:
-1.  A set of **manual annotations** for 100 utterances, rated by four professional annotators.
+1.  A set of **manual annotations** for 130 utterances, rated by four professional annotators.
 2.  **Estimated VI values** for the entire LibriTTS-R corpus, inferred by a voice impression estimator (VIE) trained on the manual annotations.
 
 We hope this dataset will facilitate future research and the development of more robust, controllable TTS models.
@@ -71,17 +73,14 @@ The data is organized into the following files:
 
 ## Citation
 
-If you use this dataset in your research, please cite our paper.
+If you use this dataset in your research, please cite our paper (accepted at Interspeech 2026).
 
 ```bibtex
-@misc{ohmura2025librittsvipubliccorpusnovel,
+@inproceedings{ohmura2026librittsvi,
       title={{LibriTTS-VI}: A Public Corpus and Novel Methods for Efficient Voice Impression Control}, 
       author={Junki Ohmura and Yuki Ito and Emiru Tsunoo and Toshiyuki Sekiya and Toshiyuki Kumakura},
-      year={2025},
-      eprint={2509.15626},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD},
-      url={https://arxiv.org/abs/2509.15626}, 
+      booktitle={Proc. Interspeech},
+      year={2026},
 }
 ```
 
